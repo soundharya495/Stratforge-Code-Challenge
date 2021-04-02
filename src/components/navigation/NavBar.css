@@ -1,0 +1,29 @@
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: rgba(255, 255, 255, 1);
+  background-color: rgb(31, 30, 30);
+  height: 4rem;
+}
+
+.nav .left .logo {
+  font-weight: bold;
+  font-variant: small-caps;
+  font-size: 1.5rem;
+  text-shadow: 1px 1px 2px rgb(0, 0, 0);
+  cursor: pointer;
+}
+
+.nav .right span {
+  padding: 1rem;
+  height: 4rem;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: bold;
+  transition: all 100ms linear;
+}
+
+.nav .right span:hover {
+  background-color: blue;
+}
