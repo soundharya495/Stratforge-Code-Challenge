@@ -1,0 +1,58 @@
+.rockets {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.3)),
+    url("../home/images/Rocket.jpg");
+  background-size: cover;
+  height: calc(100vh - 64px);
+  padding: 3rem 5rem;
+  overflow: auto;
+}
+
+.rockets .rocket-item {
+  margin: 1rem;
+  padding: 1rem;
+  display: flex;
+  flex-direction: row;
+}
+
+.rockets .rocket-item .left {
+  padding: 2rem;
+  width: 100%;
+  color: #ddd;
+  min-height: 20rem;
+
+  -webkit-backdrop-filter: brightness(0.5);
+  backdrop-filter: brightness(0.5);
+}
+
+.rockets .rocket-item .right {
+  padding: 1rem;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.8);
+  color: #000;
+  box-shadow: 1px 1px 2px 1px #000;
+}
+
+.rockets .rocket-item .title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 1rem 0;
+}
+
+.rockets .rocket-item .content {
+  font-size: 1.1rem;
+  margin: 0.5rem 0;
+  line-height: 2;
+}
+
+.rockets .rocket-item .btn {
+  color: #fff;
+  background-color: rgba(158, 158, 158, 1);
+}
+
+.rockets .rocket-item .overview span {
+  padding: 1rem;
+  width: 100%;
+  border-bottom: 1px solid #000;
+  display: flex;
+  justify-content: space-between;
+}

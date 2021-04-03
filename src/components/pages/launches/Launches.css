@@ -1,0 +1,81 @@
+.launches {
+  background: url("../home/images/Launches.jpg");
+  background-size: cover;
+  height: calc(100vh - 64px);
+  overflow: auto;
+}
+
+.launches .container {
+  margin: 5rem;
+  border-radius: 0.5rem;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+.launches .container .all-launches {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+}
+
+.launch-card {
+  margin: 1rem;
+  padding: 1rem;
+  background-color: rgba(255, 255, 255, 0.8);
+  color: #000;
+  box-shadow: 1px 1px 2px 1px #000;
+  width: 15rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.launch-card .title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.launch-card .content {
+  font-size: 1.1rem;
+  margin: 0.5rem 0;
+  height: 8rem;
+}
+
+.launch-card .btn {
+  background-color: #008cba;
+  color: #fff;
+  border-radius: 0.1rem;
+  margin: 0.5rem 0;
+}
+
+.launch-card .links {
+  margin: 0.5rem 0;
+}
+
+.links a {
+  text-decoration: none;
+}
+
+.launches .container .filter {
+  margin: 1rem;
+  padding: 1rem;
+  background-color: rgba(255, 255, 255, 0.8);
+  color: #000;
+  box-shadow: 1px 1px 2px 1px #000;
+  border-radius: 0.5rem;
+}
+
+.launches .container .filter .search {
+  display: flex;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.launches .container .filter .search input {
+  border: none;
+  outline: none;
+  padding: 5px;
+  width: 100%;
+  font-size: 16px;
+}

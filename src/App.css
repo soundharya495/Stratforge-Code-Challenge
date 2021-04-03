@@ -5,10 +5,25 @@
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
+body {
+  overflow: hidden;
+}
+
 .btn {
-  padding: .75rem 1.5rem;
-  border-radius: .5rem;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.5rem;
   border: none;
   outline: none;
   display: inline-block;
+  text-decoration: none;
+  width: fit-content;
+  text-align: center;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(213, 0, 0, 1);
 }

@@ -3,9 +3,9 @@ import { BrowserRouter, Switch, Route } from "react-router-dom";
 
 import NavBar from "./components/navigation/NavBar";
 import Home from "./components/pages/home/Home";
-import Launches from "./components/pages/Launches";
-import LaunchHistory from "./components/pages/LaunchHistory";
-import Rockets from "./components/pages/Rockets";
+import Launches from "./components/pages/launches/Launches";
+import LaunchHistory from "./components/pages/history/LaunchHistory";
+import Rockets from "./components/pages/rockets/Rockets";
 
 import "./App.css";
 
@@ -13,7 +13,7 @@ const App = () => {
   return (
     <BrowserRouter>
       <div className="App">
-        {/* <NavBar /> */}
+        <NavBar />
         <Switch>
           <Route exact path="/" component={Home} />
           <Route path="/history" component={LaunchHistory} />

@@ -1,35 +1,41 @@
+.home-page {
+  height: calc(100vh - 64px);
+  overflow: auto;
+}
+
 .home-page section {
-    background: url('./Home.jpg');
-    background-size: cover;
-    height: 100vh;
-    color: #fff;
+  height: 100vh;
+  color: #fff;
+  position: relative;
 }
 
 .home-page section .container {
-    height: 20rem;
-    width: 30rem;
-    max-width: 50%;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    margin: 0 5rem;
+  width: 30rem;
+  max-width: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  margin: 0 5rem;
+  backdrop-filter: brightness(0.5);
+  border-radius: 0.5rem;
+  padding: 1rem;
 }
 
 .home-page section .container .title {
-    font-weight: bold;
-    font-size: 2.5rem;
+  font-weight: bold;
+  font-size: 2.5rem;
 }
 
-.home-page section .container .content{
-    font-size: 1.5rem;
-    line-height: 1.5;
-    padding: 1rem 0;
+.home-page section .container .content {
+  font-size: 1.5rem;
+  line-height: 1.5;
+  padding: 1rem 0;
 }
 
 .home-page section .container .btn {
-    background-color: rgb(255 255 255);
-    color: #111;
-    font-weight: 500;
-    font-weight: bold;
-    box-shadow: 1px 1px 2px 2px #353434;
+  background-color: rgb(255 255 255);
+  color: #111;
+  font-weight: 500;
+  font-weight: bold;
+  box-shadow: 1px 1px 2px 2px #353434;
 }
