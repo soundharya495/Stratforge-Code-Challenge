@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Stratforge-Code-Challenge/static/css/main.9c0f4d69.chunk.css",
-    "main.js": "/Stratforge-Code-Challenge/static/js/main.c1e74a8c.chunk.js",
-    "main.js.map": "/Stratforge-Code-Challenge/static/js/main.c1e74a8c.chunk.js.map",
+    "main.js": "/Stratforge-Code-Challenge/static/js/main.f9a8b5ae.chunk.js",
+    "main.js.map": "/Stratforge-Code-Challenge/static/js/main.f9a8b5ae.chunk.js.map",
     "runtime-main.js": "/Stratforge-Code-Challenge/static/js/runtime-main.f16110e4.js",
     "runtime-main.js.map": "/Stratforge-Code-Challenge/static/js/runtime-main.f16110e4.js.map",
     "static/js/2.a0ac1be7.chunk.js": "/Stratforge-Code-Challenge/static/js/2.a0ac1be7.chunk.js",
@@ -24,6 +24,6 @@
     "static/js/runtime-main.f16110e4.js",
     "static/js/2.a0ac1be7.chunk.js",
     "static/css/main.9c0f4d69.chunk.css",
-    "static/js/main.c1e74a8c.chunk.js"
+    "static/js/main.f9a8b5ae.chunk.js"
   ]
 }
