@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/Stratforge-Code-Challenge/static/css/main.9c0f4d69.chunk.css",
-    "main.js": "/Stratforge-Code-Challenge/static/js/main.eaa62822.chunk.js",
-    "main.js.map": "/Stratforge-Code-Challenge/static/js/main.eaa62822.chunk.js.map",
+    "main.js": "/Stratforge-Code-Challenge/static/js/main.c1e74a8c.chunk.js",
+    "main.js.map": "/Stratforge-Code-Challenge/static/js/main.c1e74a8c.chunk.js.map",
     "runtime-main.js": "/Stratforge-Code-Challenge/static/js/runtime-main.f16110e4.js",
     "runtime-main.js.map": "/Stratforge-Code-Challenge/static/js/runtime-main.f16110e4.js.map",
-    "static/js/2.ded4d368.chunk.js": "/Stratforge-Code-Challenge/static/js/2.ded4d368.chunk.js",
-    "static/js/2.ded4d368.chunk.js.map": "/Stratforge-Code-Challenge/static/js/2.ded4d368.chunk.js.map",
+    "static/js/2.a0ac1be7.chunk.js": "/Stratforge-Code-Challenge/static/js/2.a0ac1be7.chunk.js",
+    "static/js/2.a0ac1be7.chunk.js.map": "/Stratforge-Code-Challenge/static/js/2.a0ac1be7.chunk.js.map",
     "static/js/3.a161d3bf.chunk.js": "/Stratforge-Code-Challenge/static/js/3.a161d3bf.chunk.js",
     "static/js/3.a161d3bf.chunk.js.map": "/Stratforge-Code-Challenge/static/js/3.a161d3bf.chunk.js.map",
     "index.html": "/Stratforge-Code-Challenge/index.html",
     "static/css/main.9c0f4d69.chunk.css.map": "/Stratforge-Code-Challenge/static/css/main.9c0f4d69.chunk.css.map",
-    "static/js/2.ded4d368.chunk.js.LICENSE.txt": "/Stratforge-Code-Challenge/static/js/2.ded4d368.chunk.js.LICENSE.txt",
+    "static/js/2.a0ac1be7.chunk.js.LICENSE.txt": "/Stratforge-Code-Challenge/static/js/2.a0ac1be7.chunk.js.LICENSE.txt",
     "static/media/History.053d1dd9.jpg": "/Stratforge-Code-Challenge/static/media/History.053d1dd9.jpg",
     "static/media/Home.026eee2a.jpg": "/Stratforge-Code-Challenge/static/media/Home.026eee2a.jpg",
     "static/media/Launches.css": "/Stratforge-Code-Challenge/static/media/Launches.a318c7ec.jpg",
@@ -22,8 +22,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.f16110e4.js",
-    "static/js/2.ded4d368.chunk.js",
+    "static/js/2.a0ac1be7.chunk.js",
     "static/css/main.9c0f4d69.chunk.css",
-    "static/js/main.eaa62822.chunk.js"
+    "static/js/main.c1e74a8c.chunk.js"
   ]
 }
